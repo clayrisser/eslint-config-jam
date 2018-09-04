@@ -3,12 +3,15 @@ module.exports = {
   parser: 'babel-eslint',
   rules: {
     'arrow-body-style': 'off',
+    'class-methods-use-this': 'off',
+    'default-case': 'off',
     'no-param-reassign': 'off',
     'no-plusplus': 'off',
     'no-return-assign': 'off',
     'no-shadow': 'off',
     'no-underscore-dangle': 'off',
     'no-use-before-define': 'off',
+    yoda: 'off',
     'no-unused-vars': [
       'warn',
       {
@@ -25,5 +28,10 @@ module.exports = {
       }
     ],
     'comma-dangle': ['error', 'never']
+  },
+  parserOptions: {
+    ecmaFeatures: {
+      legacyDecorators: true
+    }
   }
 };
