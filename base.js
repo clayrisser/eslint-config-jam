@@ -1,4 +1,1 @@
-Object.defineProperty(exports, '__esModule', {
-  value: true
-});
-exports.default = require('./lib/base').default;
+module.exports = require('./lib/base');

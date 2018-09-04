@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jam",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "eslint config based on airbnb with overkill rules disabled",
   "main": "lib/index.js",
   "scripts": {
@@ -39,12 +39,12 @@
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "babel-preset-everything": "^0.1.2",
+    "eslint": "^5.5.0",
     "prettier": "^1.14.2",
     "rimraf": "^2.6.2"
   },
   "dependencies": {
     "babel-eslint": "^9.0.0",
-    "eslint": "^5.5.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-import": "^2.14.0"

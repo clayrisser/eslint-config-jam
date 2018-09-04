@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   rules: {
     'react/destructuring-assignment': 'off',
     'react/forbid-prop-types': 'off',
