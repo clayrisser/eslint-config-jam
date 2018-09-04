@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./base', './rules/react']
+  extends: ['./base.js', './rules/react.js']
 };
