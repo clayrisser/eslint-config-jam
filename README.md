@@ -28,8 +28,12 @@ npm install --save-dev eslint-config-jam
 
 ## Usage
 
-[Contribute](https://github.com/codejamninja/eslint-config-jam/blob/master/CONTRIBUTING.md) usage docs
-
+_.eslintrc_
+```json
+{
+  "extends": ["jam"]
+}
+```
 
 ## Support
 
