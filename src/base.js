@@ -5,6 +5,7 @@ module.exports = {
     'arrow-body-style': 'off',
     'class-methods-use-this': 'off',
     'default-case': 'off',
+    'no-await-in-loop': 'off',
     'no-param-reassign': 'off',
     'no-plusplus': 'off',
     'no-return-assign': 'off',
