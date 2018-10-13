@@ -6,6 +6,7 @@ module.exports = {
     'class-methods-use-this': 'off',
     'default-case': 'off',
     'no-await-in-loop': 'off',
+    'no-extra-boolean-cast': 'off',
     'no-param-reassign': 'off',
     'no-plusplus': 'off',
     'no-return-assign': 'off',
