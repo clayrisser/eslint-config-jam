@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 * disable no-boolean-cast
 
+## [0.1.4] - 2018-09-27
+### Removed
+* react and jsx from base
+
 ## [0.1.3] - 2018-09-06
 ### Added
 * ignore await in loop
