@@ -1,3 +1,8 @@
 module.exports = {
-  extends: ['airbnb', './base.js', './rules/jest.js', './rules/react.js']
+  extends: [
+    'airbnb',
+    './lib/base.js',
+    './lib/rules/jest.js',
+    './lib/rules/react.js'
+  ]
 };
