@@ -3,6 +3,7 @@ module.exports = {
     'arrow-body-style': 'off',
     'class-methods-use-this': 'off',
     'default-case': 'off',
+    'import/no-cycle': 'off',
     'no-await-in-loop': 'off',
     'no-extra-boolean-cast': 'off',
     'no-param-reassign': 'off',
