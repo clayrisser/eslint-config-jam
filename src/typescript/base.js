@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb-typescript/base', 'prettier', '../lib/rules/base.js'],
+  extends: ['airbnb-typescript/base', 'prettier', '../rules/base.js'],
   parser: '@typescript-eslint/parser',
   rules: {
     '@typescript-eslint/indent': 'off',
