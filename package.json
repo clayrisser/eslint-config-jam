@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jam",
-  "version": "0.2.12",
+  "version": "0.2.14",
   "description": "eslint config based on airbnb with overkill rules disabled",
   "main": "lib/index.js",
   "scripts": {
