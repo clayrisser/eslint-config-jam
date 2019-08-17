@@ -5,3 +5,5 @@ export function resolvePath(name, nextName) {
   if (!fs.existsSync(path)) return resolvePath(nextName);
   return path;
 }
+
+export default { resolvePath };
