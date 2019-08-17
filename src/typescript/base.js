@@ -1,5 +1,11 @@
+import { resolvePath } from '../util';
+
 module.exports = {
-  extends: ['airbnb-typescript/base', 'prettier', '../rules/base.js'],
+  extends: [
+    'airbnb-typescript/base',
+    'prettier',
+    resolvePath('../lib/rules/base', '../rules/base')
+  ],
   parser: '@typescript-eslint/parser',
   rules: {
     '@typescript-eslint/indent': 'off',
